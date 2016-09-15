@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+<context:annotation-config />
+<context:component-scan base-package="com.training" />
+
+<bean id="dataSrc" class="org.springframework.jdbc.datasource.DriverManagerDataSource"
+  p:driverClassName="oracle.jdbc.driver.OracleDriver" p:url="jdbc:oracle:thin:@localhost:1521:XE"
+      p:username="system" p:password="sapjuly16" />
+<bean id="hibernateTemplate" class="org.springframework.orm.hibernate3.HibernateTemplate" p:sessionFactory-ref="sessionFactory"/>
+<bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean" p:dataSource-ref="dataSrc" >
+<property name="mappingResources">
+<list>
+<value>Donor.hbm.xml</value>
+<value>Project.hbm.xml</value>
+</list></property>
+<property name="hibernateProperties">
+<props>
+<prop key="hibernate.hbm2ddl.auto">update</prop>
+<prop key="show_sql">true</prop>
+<prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</prop>
+</props>
+</property>
+</bean>
+
+<bean name="AddressBeanId" class="com.training.entity.Address" c:addressLine1="House No." c:addressLine2="Street Name" c:cityName="City" c:pinCode="213730"/>
+<bean name="DonorBeanIdThree" class="com.training.entity.Donor" p:donorName="Donor 3" p:handPhone="6245" p:email="donorThree@gmail.com"/>
+<bean name="DonorBeanIdTwo" class="com.training.entity.Donor" p:donorName="Donor 2" p:handPhone="2284" p:email="donorTwo@gmail.com" />
+<bean name="ProjectBeanId" class="com.training.entity.Project" p:projectId="548613" p:projectName="Project Name 2" p:projectBudget="300000" p:amountCollected="4000">
+<property name="donorList">
+<set value-type="com.training.entity.Donor">
+<ref bean="DonorBeanIdThree" />
+<ref bean="DonorBeanIdTwo" />
+</set>
+</property>
+</bean>
+</beans>

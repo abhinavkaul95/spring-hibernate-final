@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="HandsOnS&amp;H_Dynamic">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="commons-collections-3.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Desktop/jars/commons-collections-3.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="genson-1.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/genson-1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.12.1.GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Desktop/jars/javassist-3.12.1.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-4.0.4.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/spring-jdbc-4.0.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/commons-logging-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-commons-annotations-3.2.0.Final.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Desktop/jars/hibernate-commons-annotations-3.2.0.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-4.0.4.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/spring-aop-4.0.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.10.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/slf4j-api-1.7.10.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-4.0.4.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/spring-beans-4.0.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="validation-api-1.0.0.GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/validation-api-1.0.0.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jta-1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Desktop/jars/jta-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.6.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Desktop/jars/slf4j-api-1.6.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-4.0.4.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/spring-tx-4.0.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-4.0.4.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/spring-expression-4.0.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-1.6.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Desktop/jars/dom4j-1.6.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-validator-4.0.0.GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/hibernate-validator-4.0.0.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-4.0.4.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/spring-context-4.0.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-jpa-2.0-api-1.0.0.Final.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Desktop/jars/hibernate-jpa-2.0-api-1.0.0.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aopalliance-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/aopalliance-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-4.0.4.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/spring-webmvc-4.0.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-4.0.4.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/spring-orm-4.0.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-4.0.4.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/spring-core-4.0.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-support-4.0.4.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/spring-context-support-4.0.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-4.0.4.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Downloads/SpringIO/spring-web-4.0.4.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-core-3.6.4.Final.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Desktop/jars/hibernate-core-3.6.4.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PhilanthropySpringAndHibernate.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Desktop/training/assess/PhilanthropySpringAndHibernate.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-databind-2.7.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Desktop/training/assess/jackson-databind-2.7.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-2.7.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Desktop/training/assess/jackson-core-2.7.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-annotations-2.7.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Desktop/training/assess/jackson-annotations-2.7.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="antlr-2.7.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/akaul5/Desktop/jars/antlr-2.7.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="HandsOnS&amp;H_Dynamic"/>
+        <property name="java-output-path" value="/HandsOnS&amp;H_Dynamic/build/classes"/>
+    </wb-module>
+</project-modules>
